@@ -108,3 +108,19 @@ print("Function Closure:", example_function.__closure__)   # Output: Function Cl
 
 # End of Functions in Python    
 
+#What happens if a function is called with fewer arguments than defined?
+# If a function is called with fewer arguments than defined, and if the missing arguments have default values, those default values will be used. If there are no default values, a TypeError will be raised.
+
+# What happens if a function is called with fewer arguments than defined?
+#Select the correct answer
+#A. It executes with None for missing values.
+#B. It raises a TypeError.
+#C. It executes with default values.
+#D. It ignores the missing arguments.
+# Answer: B. It raises a TypeError.
+
+#What does a function return if there is no return statement?
+# If a function does not have a return statement, it returns None by default.
+
+#What is the key difference between return and yield in functions?
+# The key difference between return and yield is that return exits the function and sends a value back to the caller, while yield produces a value and pauses the function, allowing it to be resumed later, making it suitable for creating generators.

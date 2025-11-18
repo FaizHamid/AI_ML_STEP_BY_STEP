@@ -56,3 +56,19 @@ set_y = {3, 4, 5}
 print("Is set_x a subset of set_y?", set_x.issubset(set_y))   # Output: Is set_x a subset of set_y? False
 print("Is set_y a superset of set_x?", set_y.issuperset(set_x)) # Output: Is set_y a superset of set_x? False
 # End of Set operations 
+
+# Which of the following is an invalid way to create a set?
+# A) my_set = {1, 2, 3}
+# B) my_set = set([1, 2, 3])
+# C) my_set = {}
+# D) my_set = set()
+# Answer: C) my_set = {}  (This creates an empty dictionary, not a set)
+
+
+
+#Which operation removes all elements from a set?
+# The operation that removes all elements from a set is the `clear()` method.
+
+#What is the result of {1, 2, 3} | {3, 4, 5}?
+# The result of {1, 2, 3} | {3, 4, 5} is {1, 2, 3, 4, 5}, which is the union of the two sets.
+

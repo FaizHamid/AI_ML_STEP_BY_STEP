@@ -7,6 +7,9 @@
 # Examples of Tuple operations:
 
 # Creating a tuple
+from unittest import result
+
+
 my_tuple = (1, 2, 3, 4, 5)
 print("Original Tuple:", my_tuple)               # Output: Original Tuple: (1, 2, 3, 4, 5)          
 
@@ -42,3 +45,23 @@ print("Unpacked Values:", a, b, c)              # Output: Unpacked Values: 10 20
 # my_tuple.append(6)        # This will raise an AttributeError
 # my_tuple.remove(3)       # This will raise an AttributeError
 # End of Tuple operations       
+
+
+#How do you create a tuple with one element?
+# You create a tuple with one element by including a comma after the element, like this:
+single_element_tuple = (5,)
+print("Single Element Tuple:", single_element_tuple)  # Output: Single Element Tuple: (5,)  
+
+# What will t = (1, 2, 3); t[1] = 5 result in?
+# It will raise a TypeError because tuples are immutable.   
+
+# What is the output of len([1, 3, b])?  
+# It will raise a NameError because 'b' is not defined.
+
+#What happens when you try to delete an element from a tuple?
+# It will raise a TypeError because tuples are immutable and do not support item deletion.
+# What is the output of t = (1, 2, 3); print(t[0:2])?
+# The output will be (1, 2) as it slices the tuple from index 0 to 2 (excluding index 2).
+
+# Which method allows you to convert a tuple into a list?
+# The method that allows you to convert a tuple into a list is the `list()` function.

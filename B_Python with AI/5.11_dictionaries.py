@@ -60,3 +60,24 @@ print("Dictionary after update:", my_dict)       # Output: Dictionary after upda
 my_dict.clear()
 print("Dictionary after clear:", my_dict)        # Output: Dictionary after clear: {}
 # End of Dictionary operations  
+
+
+
+# Which data structure uses key-value pairs?
+# Dictionaries use key-value pairs.
+
+# What will dict1.get('key', 'default') return if 'key' does not exist?
+# It will return 'default'.
+
+# Which method is used to get all dictionary keys?
+# The method used to get all dictionary keys is `keys()`.
+
+# What syntax defines a dictionary comprehension, for example, to create a dictionary of numbers and their squares from 1 to 3?
+# The syntax is `{key: value for key, value in iterable}`. For example, `{x: x**2 for x in range(1, 4)}` creates a dictionary of numbers and their squares from 1 to 3.
+
+
+#What will dict1 = {}; dict1['a'] = 10 result in?
+# It will create a dictionary with one key-value pair: {'a': 10}.
+
+# What does items() return in a dictionary?
+# The items() method returns a view object containing the key-value pairs of the dictionary as tuples.

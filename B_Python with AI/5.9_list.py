@@ -71,3 +71,9 @@ popped_element = my_list.pop()
 print("After pop():", my_list, "Popped Element:", popped_element) # Output: After pop(): [9, 6, 5, 3, 2] Popped Element: 1    
 
 # End of List in Python
+# # The list method used to add an element at the end of the list is `append()`.  
+#What will be the output of lst = [1, 2, 3]; lst.pop()?
+# Output: 3
+
+# Which list comprehension creates a list of squares of even numbers from 1 to 10?
+# The list comprehension is: [x**2 for x in range(1, 11) if x % 2 == 0]

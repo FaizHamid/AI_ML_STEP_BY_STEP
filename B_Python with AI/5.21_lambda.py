@@ -95,3 +95,12 @@ for _ in range(5):
     print(next(counter))                        # Output: 0 1 2 3 4     
 
 # End of Lambda Functions in Python 
+
+
+# What is a lambda function in Python?
+# Select the correct answer
+# A. A built-in module
+# B. A function defined without a name
+# C. A function that only accepts one argument
+# D. A loop function
+# Answer: B. A function defined without a name

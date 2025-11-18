@@ -50,5 +50,16 @@ for num in range(1, 6):
     if num == 3:
         pass                                    # Do nothing when num is 3
     print(num)                                  # Output: 1 2 3 4 5                     
-# End of Loops in Python    
+# End of Loops in Python
+
+# Which loop is best when the number of iterations is known?
+# The for loop is best when the number of iterations is known.
+
+#What happens when break is encountered in a loop?
+# When break is encountered in a loop, it immediately terminates the loop and exits to the next statement following the loop.
+
+#Which loop control statement skips the current iteration?
+# The continue statement skips the current iteration and moves to the next iteration of the loop.
+
+
                     

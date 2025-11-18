@@ -55,3 +55,27 @@ is_even = "Even" if num % 2 == 0 else "Odd"
 print("The number is", is_even)               # Output: The number is Even          
 
 # End of Conditional Statements in Python   
+
+# Which statement executes when all if and elif conditions fail?`
+# The else statement executes when all if and elif conditions fail.
+
+# What will if not 0: evaluate to?`
+# The expression `if not 0:` evaluates to True because 0 is considered falsy in Python, and the `not` operator negates it to True.
+
+#Which of the following is not a valid condition?
+# A. if x == 5:
+# B. if (x > y) and (y < z):
+# C. if x = 10:
+# D. if not x:
+# Answer: C. if x = 10:  (This is an assignment, not a comparison. The correct syntax for comparison is `if x == 10:`)
+
+#What is the output of if "": print("Empty") else: print("Not Empty")?
+# The output will be "Not Empty" because an empty string is considered falsy in Python.
+
+
+#What is the result of for i in range(0, 5, 2): print(i)?
+# The output will be:
+# 0
+# 2
+# 4
+# This is because the range(0, 5, 2) generates numbers starting from 0 up to (but not including) 5, with a step of 2.
