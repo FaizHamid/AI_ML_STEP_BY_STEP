@@ -72,3 +72,24 @@ print("Is set_y a superset of set_x?", set_y.issuperset(set_x)) # Output: Is set
 #What is the result of {1, 2, 3} | {3, 4, 5}?
 # The result of {1, 2, 3} | {3, 4, 5} is {1, 2, 3, 4, 5}, which is the union of the two sets.
 
+# Examples of set
+
+# Creating a set with duplicate elements
+duplicate_set = {1, 2, 2, 3, 4, 4}
+print("Set with duplicates removed:", duplicate_set)  # Output: Set with duplicates removed: {1, 2, 3, 4}           
+# Creating an empty set 
+empty_set = set()
+print("Empty Set:", empty_set)                        # Output: Empty Set: set()
+# Trying to remove an element that does not exist using discard()
+my_set.discard(10)                                    # No error raised
+print("Set after discard:", my_set)                   # Output: Set after discard: {1   
+, 2, 4, 5, 6}   
+# Trying to remove an element that does not exist using remove()
+# my_set.remove(10)                                   # This will raise a KeyError  
+# Using pop() to remove an arbitrary element
+removed_element = my_set.pop()
+print("Removed Element:", removed_element)            # Output: Removed Element: (an arbitrary element from the set)
+print("Set after pop:", my_set)                       # Output: Set after pop: (set with one less element)      
+# Clearing all elements from the set
+my_set.clear()  
+    
